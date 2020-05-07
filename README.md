@@ -36,3 +36,11 @@ No
 #### License
 No
 
+---
+pip install --upgrade pip
+mkidr -p ~/.pip/
+vim ~/.pip/pip.conf
+pip install setuptools
+pip install pkg-resources
+
+
